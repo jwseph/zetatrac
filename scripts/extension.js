@@ -3,5 +3,5 @@ formIdInput.addEventListener('input', function () {
 });
 
 chrome.storage.local.get(['formId']).then(({formId}) => {
-  formIdInput.value = formId;
+  formIdInput.value = formId ?? '';
 });
