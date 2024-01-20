@@ -1,0 +1,40 @@
+<html>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px 0;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 256px;
+    }
+    body > * {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    h1 {
+      margin: 0;
+      font-weight: 700;
+      text-align: center;
+    }
+    input {
+      height: 2em;
+      width: 100%;
+      flex-shrink: 16;
+    }
+    p {
+      margin: 0;
+    }
+  </style>
+  <body>
+    <h1>Zetatrac v0.1</h1>
+    <div style='margin-top:16px; background:#dddddd; padding-top:8px; padding-bottom:8px'>
+      <div style='display:flex; align-items:center'>
+        <label for='formIdInput' style='font-weight:bold; font-size:1.2em'>Form&nbsp;ID:&nbsp;</label><br>
+        <input id='formIdInput' onfocus='this.select()'>
+      </div>
+    </div>
+    <p style='margin-top:16px'>
+      Please make sure you use the correct form ID. You should be using the ID from the link that anyone can use to fill the form, not the link for editing.
+    </p>
+    <script src='scripts/extension.js'></script>
+  </body>
+</html>
