@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Zetatrac",
   "description": "Track Zetamac (https://arithmetic.zetamac.com/) scores automagically using Google Forms and Sheets",
-  "version": "1.0",
+  "version": "0.1",
   "action": {
     "default_popup": "zetatrac.html",
     "default_icon": "images/icon-128.png"
